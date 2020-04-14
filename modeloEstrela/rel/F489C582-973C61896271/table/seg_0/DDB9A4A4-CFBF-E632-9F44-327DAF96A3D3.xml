@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DDB9A4A4-CFBF-E632-9F44-327DAF96A3D3" name="refund">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-03-31 10:47:32 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="refund_id" id="CA059870-B2B9-17AD-DC56-23CFD6AD5674">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-03-31 10:53:15 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="refund_reason" id="DA7EC925-43C4-5A14-44B3-4A56EB1EF4CE">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-03-31 10:53:15 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="refund_status" id="A325EF5E-442B-078E-A0DC-FEF567BAD68D">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-03-31 10:53:15 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="refund_cost" id="4409050A-46BB-A8B9-5C02-12487B5C4089">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-03-31 10:53:15 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="refund_type" id="BABA3783-D1B9-55CA-AE6F-5D64051E4BCB">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-03-31 10:53:15 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sk" id="E3314C6F-4E16-1684-467C-36FFFC337412">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-04-03 14:11:30 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D162E162-CB0E-734E-C168-0E2D390208D0" name="refund_PK">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-03-31 10:53:15 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA059870-B2B9-17AD-DC56-23CFD6AD5674"/>
+<colUsage columnID="E3314C6F-4E16-1684-467C-36FFFC337412"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

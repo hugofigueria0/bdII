@@ -1,0 +1,324 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D4ADA38F-8806-203F-7E42-915882EC0074" name="sales">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-03-31 11:08:21 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sale_id" id="C822A66B-85DF-9B8A-C556-675DA759D21B">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-03-31 11:08:48 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="refund_refund_id" id="D79B4063-67EB-1F0F-5583-9F0A3CABB3AA">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-03-31 11:14:22 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BAA71CAC-719A-B90F-2371-920175A8937F" referredColumn="CA059870-B2B9-17AD-DC56-23CFD6AD5674"/>
+</associations>
+</Column>
+<Column name="data_data_id" id="B8211FF6-C47B-FE57-A8A8-D9BD82A81EB9">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-03-31 11:14:36 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="product_prod_id" id="7131923F-A240-D3ED-B8AB-AD580C10DAD5">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-03-31 11:15:02 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B9D6D523-BC15-ED63-F85F-686B534B51E9" referredColumn="14C931BF-6098-B144-7720-E451F0807E19"/>
+</associations>
+</Column>
+<Column name="employees_employee_id" id="EC7230B6-D37D-7790-B7D2-BEF5C33327D1">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-03-31 11:15:06 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0ED0B753-6720-F25D-E0BB-373FCCCFAF6F" referredColumn="301585C3-8EF6-F462-A562-06D8941643DF"/>
+</associations>
+</Column>
+<Column name="customer_cust_id" id="96207787-C560-305E-AE15-2FADD4F7263E">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-03-31 11:15:17 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5A0B29B7-2627-B474-7E0F-3EA268BBD609" referredColumn="ABE7FC13-E968-0E73-5D6F-3D8A664B9F6A"/>
+</associations>
+</Column>
+<Column name="periodo_periodo_id" id="FDB58FBB-A982-937D-1FC9-92D9AA09CE67">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-04-01 13:48:52 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B9B87589-ADFB-EF35-8D17-7A7065CF2306" referredColumn="1EC30DB7-3E43-6558-39CF-39F49B424D7B"/>
+</associations>
+</Column>
+<Column name="refund_sk" id="391C6889-6CCB-88B3-C110-0F11A71A970F">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-04-03 14:11:30 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BAA71CAC-719A-B90F-2371-920175A8937F" referredColumn="E3314C6F-4E16-1684-467C-36FFFC337412"/>
+</associations>
+</Column>
+<Column name="periodo_sk" id="DCEEDA07-BBC1-D068-32DC-F7FA6AEBE924">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-04-03 14:26:18 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B9B87589-ADFB-EF35-8D17-7A7065CF2306" referredColumn="36301E5F-0481-EE28-B8C7-988738D322C5"/>
+</associations>
+</Column>
+<Column name="product_sk" id="1992E5C7-0003-2050-334A-CFA1DCC65045">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-04-03 14:26:22 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B9D6D523-BC15-ED63-F85F-686B534B51E9" referredColumn="01AC20B9-B258-E78C-158A-0227EFCD1CC0"/>
+</associations>
+</Column>
+<Column name="customer_sk" id="7146398C-A1A7-AF67-13D2-8F464EABF6FD">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-04-03 14:26:29 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5A0B29B7-2627-B474-7E0F-3EA268BBD609" referredColumn="230332C9-81EE-39DE-6610-70C16761ADE6"/>
+</associations>
+</Column>
+<Column name="employees_sk" id="904EC847-6E20-8B57-6600-1B1FDDB69217">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-04-03 14:26:33 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0ED0B753-6720-F25D-E0BB-373FCCCFAF6F" referredColumn="CF461DF5-C34A-EA66-1B54-A287480BF163"/>
+</associations>
+</Column>
+<Column name="data_sk" id="F3C7C9F0-4AD6-45BF-E925-B97EC53DD6FE">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-04-03 14:26:37 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D1405FC4-F3C6-F8A3-C0B7-510BF3047217" referredColumn="53E6F685-C0B0-FD88-247D-0B5A1474546C"/>
+</associations>
+</Column>
+<Column name="lucro" id="432B02C0-A563-1771-6106-70DDF06652C5">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-04-08 13:38:38 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="unidades_vendidas" id="50FDC6C6-B07C-9DC8-1494-803642AE27CC">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-04-01 13:49:27 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="custo" id="FBE34DDC-610F-B61C-DC4D-EEC8043EF05F">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-04-01 14:03:33 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_data_id1" id="F782E712-96B7-C481-4117-CE9BC356BFAB">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-04-08 14:35:26 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D1405FC4-F3C6-F8A3-C0B7-510BF3047217" referredColumn="60BDA08A-C5D7-2D96-1CBC-DD2EE41722FC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9C817835-7F77-5813-83F4-812E178041D4" name="sales_PK">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-03-31 11:08:48 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C822A66B-85DF-9B8A-C556-675DA759D21B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9B69BC75-7FF8-CBA5-3EFC-2F7B7E51FB0C" name="sales_refund_FK">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-03-31 11:14:22 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D79B4063-67EB-1F0F-5583-9F0A3CABB3AA"/>
+<colUsage columnID="391C6889-6CCB-88B3-C110-0F11A71A970F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="29A309C3-92C6-3E37-FAEC-30742D110458" name="sales_data_FK">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-03-31 11:14:36 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3C7C9F0-4AD6-45BF-E925-B97EC53DD6FE"/>
+<colUsage columnID="F782E712-96B7-C481-4117-CE9BC356BFAB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5614898D-76F1-AD98-C105-0F3CE3514CB2" name="sales_product_FK">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-03-31 11:15:02 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7131923F-A240-D3ED-B8AB-AD580C10DAD5"/>
+<colUsage columnID="1992E5C7-0003-2050-334A-CFA1DCC65045"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="60383C0F-97B1-2C3D-3E5F-BD4D04FC8673" name="sales_employees_FK">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-03-31 11:15:06 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC7230B6-D37D-7790-B7D2-BEF5C33327D1"/>
+<colUsage columnID="904EC847-6E20-8B57-6600-1B1FDDB69217"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AA595216-AD57-502B-B7AE-F18BD58C52F9" name="sales_customer_FK">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-03-31 11:15:17 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96207787-C560-305E-AE15-2FADD4F7263E"/>
+<colUsage columnID="7146398C-A1A7-AF67-13D2-8F464EABF6FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="17E5816E-C0E0-081F-07E1-D6B80CABDF3B" name="sales_periodo_FK">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-04-01 13:48:52 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FDB58FBB-A982-937D-1FC9-92D9AA09CE67"/>
+<colUsage columnID="DCEEDA07-BBC1-D068-32DC-F7FA6AEBE924"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

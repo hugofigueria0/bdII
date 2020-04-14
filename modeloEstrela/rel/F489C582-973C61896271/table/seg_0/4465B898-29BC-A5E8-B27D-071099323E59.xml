@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4465B898-29BC-A5E8-B27D-071099323E59" name="employees">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-03-31 11:05:15 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="employee_id" id="301585C3-8EF6-F462-A562-06D8941643DF">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-03-31 11:07:58 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="first_name" id="D286CBC8-2986-D0B0-9B7A-EBCBC7118682">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-03-31 11:07:58 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="last_name" id="C884530D-642D-F20F-93AA-94CC684ED202">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-03-31 11:07:58 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12 BYTE</dataTypeSize>
+<ownDataTypeParameters>12 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="F7A3FA50-20C3-FBDA-DAFE-F19B705D7D15">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-03-31 11:07:58 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone_number" id="0467906B-2DC3-EC36-C162-E42979110FAA">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-03-31 11:07:58 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hire_date" id="9A5C248D-E00F-5D05-1797-0EE778EA6ACA">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-03-31 11:07:58 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="job" id="E16093DB-740A-3D3A-87BF-DB745C813C0D">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-03-31 11:07:58 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salary" id="8190C4E3-7220-8156-CB64-68CC0D853119">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-03-31 11:07:58 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="commission_pct" id="89254FBE-C42F-4D71-12D8-0F6FC5372500">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-03-31 11:46:13 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,5,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="manager" id="98EF28C9-D085-1140-C6F9-12D9C0F5AB7A">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-04-01 14:24:44 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sk" id="CF461DF5-C34A-EA66-1B54-A287480BF163">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-04-03 14:14:06 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EB713997-D502-DBBA-9A95-126D5078D92F" name="employees_PK">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-03-31 11:07:58 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="301585C3-8EF6-F462-A562-06D8941643DF"/>
+<colUsage columnID="CF461DF5-C34A-EA66-1B54-A287480BF163"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

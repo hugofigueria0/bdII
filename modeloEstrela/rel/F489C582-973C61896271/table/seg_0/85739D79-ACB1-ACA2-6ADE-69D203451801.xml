@@ -1,0 +1,210 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="85739D79-ACB1-ACA2-6ADE-69D203451801" name="customer">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-03-31 11:08:49 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cust_id" id="ABE7FC13-E968-0E73-5D6F-3D8A664B9F6A">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-03-31 11:14:14 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="first_name" id="31D61026-F124-18F1-FB10-11B556A79633">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-03-31 11:14:14 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="last_name" id="9F83B9FA-F397-7A96-537D-0080902274EB">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-03-31 11:14:14 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gender" id="5EDA2816-98AA-1101-03A8-7F193E46CBE4">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-03-31 11:14:14 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="year_of_birth" id="5B376A4F-F393-ACA1-C466-D10CB3725721">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-03-31 11:14:14 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="marital_status" id="DEEE058E-FC1C-53DC-D794-3AC65DF3968D">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-03-31 11:14:14 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="street_address" id="3DDE123B-7009-9E36-C6DB-E70620BD873C">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-03-31 11:14:14 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="post_code" id="E2F583CD-7709-FB5A-8093-95A0331B1EC6">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-03-31 11:14:14 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone_number" id="3F66DEB3-2605-603F-412C-E65DD0AE69A0">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-03-31 11:14:14 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="income_level" id="D71C2B0A-3CA1-05CB-CC20-A2B8B9157648">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-03-31 11:14:14 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="credit_limit" id="E2F817DE-5A6D-6EEF-7331-57FACDD71B82">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-03-31 11:14:14 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="74DFCE39-3312-6F51-39B4-D4DFD43F393D">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-03-31 11:14:14 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="city" id="92220F02-1D17-95F1-110E-ABF4D9598371">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-03-31 11:14:14 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="month_of_birth" id="B20B2DC4-0DF9-1FA4-69F8-CBF52D17FE5E">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-03-31 11:14:14 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="total" id="C8402670-E2D5-9A72-A493-454284799010">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-03-31 11:47:55 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sk" id="230332C9-81EE-39DE-6610-70C16761ADE6">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-04-03 14:14:41 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BC40FD15-5F50-7930-4B4A-52300BAE450C" name="customer_PK">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-03-31 11:15:14 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABE7FC13-E968-0E73-5D6F-3D8A664B9F6A"/>
+<colUsage columnID="230332C9-81EE-39DE-6610-70C16761ADE6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="17D4964F-5C28-1D6A-93BD-B4D87A55439F" name="data">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-03-31 10:55:18 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="data_id" id="60BDA08A-C5D7-2D96-1CBC-DD2EE41722FC">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-03-31 10:57:50 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dia" id="13A736BA-3041-6986-83BC-F145BF894403">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-03-31 10:57:50 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mês" id="71D2D958-35EF-A26C-B76C-7CADA34D91F8">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-03-31 10:57:50 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ano" id="1C905D47-50ED-779D-FA05-19049FAF8DEB">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-03-31 10:57:50 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sk" id="53E6F685-C0B0-FD88-247D-0B5A1474546C">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-04-03 14:14:57 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EC192289-5A77-ECD4-F96B-682F40EB5330" name="data_PK">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-03-31 10:57:50 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53E6F685-C0B0-FD88-247D-0B5A1474546C"/>
+<colUsage columnID="60BDA08A-C5D7-2D96-1CBC-DD2EE41722FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

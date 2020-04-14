@@ -1,0 +1,158 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DDF50928-65B9-8F3C-B1DF-6219728956BA" name="product">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-03-31 10:58:01 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="prod_id" id="14C931BF-6098-B144-7720-E451F0807E19">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-03-31 11:00:24 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sub_cat" id="7C4BA97F-8E83-4D7E-794C-98B87B31B451">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-03-31 11:00:24 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="weight_class" id="0AD7F488-C2F6-8F38-EDF1-1528821A1373">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-03-31 11:00:24 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="unit_of_measure" id="198ED01B-2EBC-A951-CAB9-4FC9A60228BE">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-03-31 11:02:35 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pack_size" id="BE8592F0-C854-B63E-7F59-1BBCEB91735F">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-03-31 11:02:35 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="06642561-6FED-8985-779E-57AA75B92732">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-03-31 11:02:35 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="list_price" id="35371A93-6589-9B82-F2FC-E944FE14B806">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-03-31 11:02:35 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="min_price" id="CD8F91F8-DE7B-1EAA-1409-CD23C7348AF8">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-03-31 11:05:12 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="06086966-A4CA-DDFA-4F93-0A3684678077">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-03-31 11:05:12 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cost" id="0092D43B-E211-14A9-34FD-600E9378ABF2">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-03-31 11:05:12 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sk" id="01AC20B9-B258-E78C-158A-0227EFCD1CC0">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-04-03 14:13:37 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A340D711-ED60-2A97-167B-3FFD15481A28" name="product_PK">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-03-31 11:05:12 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14C931BF-6098-B144-7720-E451F0807E19"/>
+<colUsage columnID="01AC20B9-B258-E78C-158A-0227EFCD1CC0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2EB429F4-3C89-F27E-0805-E7D9A02CFC6F" name="periodo">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-04-01 13:48:06 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="periodo_id" id="1EC30DB7-3E43-6558-39CF-39F49B424D7B">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-04-01 13:48:46 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo" id="0BB01261-BECE-A7B7-9A9D-76E548D1EE31">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-04-01 13:48:46 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sk" id="36301E5F-0481-EE28-B8C7-988738D322C5">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-04-03 14:14:18 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C56320AE-B08A-6D20-CB43-6C9B84977632" name="periodo_PK">
+<createdBy>Hugo</createdBy>
+<createdTime>2020-04-01 13:48:46 UTC</createdTime>
+<ownerDesignName>modeloEstrela</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1EC30DB7-3E43-6558-39CF-39F49B424D7B"/>
+<colUsage columnID="36301E5F-0481-EE28-B8C7-988738D322C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
